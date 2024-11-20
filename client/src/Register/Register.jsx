@@ -49,7 +49,7 @@ const Register = () => {
     
 
 
-      const response = await axios.post('http://localhost:8000/api/1/register', { name, phone, fingerprint });
+      const response = await axios.post('https://bio-auth-server.onrender.com/api/1/register', { name, phone, fingerprint });
      
       if(response){
         navigate("/home")
