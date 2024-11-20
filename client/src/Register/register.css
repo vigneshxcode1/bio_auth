@@ -1,0 +1,26 @@
+
+
+.form{
+    padding: 20px;
+ background-color: rgb(28, 29, 29);   
+
+}
+
+input{
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
